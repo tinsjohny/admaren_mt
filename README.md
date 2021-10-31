@@ -61,7 +61,7 @@ Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhw
    method : get
    http://127.0.0.1:8000/api/snippets/id/ 
    
-   (is is the primary key) 
+   (id is the primary key) 
    
 6. Update API 
    method : patch or put (patch for updating only one data)
