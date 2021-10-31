@@ -51,6 +51,7 @@ Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhw
    method : post
    
    http://127.0.0.1:8000/api/snippets/
+   
    {
     "text": "tins k johny is the name",
     "tag": "title"
@@ -58,19 +59,29 @@ Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhw
 
 5. Details API,
    method : get
-   http://127.0.0.1:8000/api/snippets/id/     (is is the primary key) 
+   http://127.0.0.1:8000/api/snippets/id/ 
+   
+   (is is the primary key) 
+   
 6. Update API 
    method : patch or put (patch for updating only one data)
    
-   http://127.0.0.1:8000/api/snippets/id/    (id is primary key)
+   http://127.0.0.1:8000/api/snippets/id/    
+   
+   (id is primary key)
+   
    {
     "text": "tins k johny is the name",
     "tag": "title"
     }
+    
 7. Delete API
 
    method : delete
-   http://127.0.0.1:8000/api/snippets/id/    (id is primary key)
+   
+   http://127.0.0.1:8000/api/snippets/id/ 
+   
+   (id is primary key)
    
 8. Tag list API
    method : get
